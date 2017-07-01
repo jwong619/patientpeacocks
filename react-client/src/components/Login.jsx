@@ -56,14 +56,14 @@ class Login extends React.Component {
           <div>
             <label>
               Password:
-              <input type="password" ref={(input) => this.password = input} />
+              <input type="text" ref={(input) => this.password = input} />
             </label>
           </div>
           <div>
             <input type="submit" value="Login!" />
           </div>
         </form>
-        
+        <Link to='/signup'>Click here if you have an account!</Link>
       </div>
     );
   }
