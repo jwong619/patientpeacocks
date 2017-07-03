@@ -1,17 +1,17 @@
 -- DROP DATABASE IF EXISTS events_app;
 
-/* connect schema to heroku
+/* Now we have heroku databaase
+/* To connect schema to heroku postgres
 heroku pg:psql postgresql-transparent-46296 --app eventwire < server/schema.sql;
+shell
+drop schema public cascade;
+create schema public*/
 
-drop schema public cascade;*/
-
-/* Use this one to connect
-psql -U postgres < server/schema.sql
-psql dbname username
-
+/* To connect to local
 psql -U userName dbName < server/schema.sql
+psql dbname username
+*/
 
-psql postgres -d events_app -f server/schema.sql*/
 -- CREATE DATABASE events_app;
 -- \c events_app;
 DROP SCHEMA if exists event_app CASCADE;
