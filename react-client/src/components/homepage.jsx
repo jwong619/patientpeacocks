@@ -7,7 +7,6 @@ import Search from './Search.jsx';
 import SignUp from './signUp.jsx';
 import SearchList from './searchList.jsx';
 import { Component } from 'react';
-// import Login from './components/Login.jsx'
 import PageHeader from 'react-bootstrap/lib/PageHeader';
 import Mount from './Mount.jsx';
 import { BrowserRouter } from 'react-router-dom';
