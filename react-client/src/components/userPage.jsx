@@ -106,7 +106,7 @@ class userPage extends React.Component {
       <div>
         <div className='titleContainer'>
           <PageHeader>
-            <span className='title'>Event</span><span className='wire'>Wire</span>
+            <span className='title'>Event</span><span className='wire'>Wyre</span>
             <Button bsSize="small" className='login'>
                 <Link to='/'>Logout</Link>
             </Button>

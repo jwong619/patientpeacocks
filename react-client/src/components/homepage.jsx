@@ -79,7 +79,7 @@ class homepage extends React.Component {
       <div className = 'pageContainer'>
         <div className='titleContainer'>
           <PageHeader >
-            <span className='title'>Event</span><span className='wire'>Wire</span> 
+            <span className='title'>Event</span><span className='wire'>Wyre</span>
             <Button bsSize="small" className='login'>
                 <Link to='/login' >Login</Link>
             </Button>
