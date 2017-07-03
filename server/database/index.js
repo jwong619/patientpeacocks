@@ -1,4 +1,5 @@
 const pgp = require('pg-promise')();
+const pgs = require('pg');
 
 pgs.defaults.ssl = true;
 
